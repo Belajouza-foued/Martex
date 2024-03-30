@@ -10,10 +10,11 @@ export default function  App(){
     <>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<NavBar/>}></Route>      
+      <Route path="/" element={<NavBar/>}>      
       <Route path="login"element={<Login/>}></Route>
       <Route path="about"element={<About/>}></Route>
       <Route path="home"element={<Home/>}></Route>
+      </Route>
     </Routes>
     </BrowserRouter>
     </>
